@@ -1,11 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "eu.trade-oracle/mcp-v2",
-  "description": "Deterministic MCP server for EU TARIC customs classification, global sanctions screening, and maritime carbon compliance. Open-bar access without API key.",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.Une-education/trade-oracle-mcp",
+  "description": "Deterministic EU/US/PRC customs tariffs, sanctions screening, and carbon MCP server.",
   "version": "2.0.0",
   "remotes": [
     {
-      "transport_type": "streamable-http",
+      "type": "streamable-http",
       "url": "https://mcp.trade-oracle.eu/mcp.php"
     }
   ]
